@@ -1,0 +1,55 @@
+/*Universal Selector*/
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    height: 60vw;
+    width:100 vw;
+    background-image: url(./drums-set-people-man.jpg);
+    background-size: 100% 100%;
+}
+
+.keys
+{
+    width:95%;
+    position: relative;
+    top:32vh;
+    height: 20vh;
+    display: flex;
+    margin: 0 auto;
+    border:2px solid red;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.key
+{
+     border-radius: 0.5rem;
+     border:0.4rem solid  gray;
+     height: 80%;
+     width: 8%;
+     text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.7s  ease;
+}
+
+kbd{
+    display: block;
+    font-size: 4rem;
+    color: aliceblue;
+}
+span{
+    font-size: 1.5rem;
+    color: rgb(248, 224, 7);
+    text-transform:uppercase;
+}
+
+.playing
+{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0  1rem #ffc600;
+}
