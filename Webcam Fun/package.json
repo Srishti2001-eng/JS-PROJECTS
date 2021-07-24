@@ -1,0 +1,17 @@
+{
+  "name": "npm-init-example",
+  "version": "1.0.0",
+  "description": "Example package.json",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "package.json",
+    "npm",
+    "init"
+  ],
+  "author": "",
+  "license": "ISC"
+}

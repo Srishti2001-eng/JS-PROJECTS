@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url("https://images.unsplash.com/44/C3EWdWzT8imxs0fKeKoC_blackforrest.JPG?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=2000&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=2000");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#bands {
+    list-style: inside square;
+    font-size: 20px;
+    background: white;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#bands li {
+    border-bottom: 1px solid #efefef;
+    padding: 20px;
+}
+
+#bands li:last-child {
+    border-bottom: 0;
+}
+
+a {
+    color: #ffc600;
+    text-decoration: none;
+}
